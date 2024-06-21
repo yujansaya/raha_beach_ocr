@@ -48,8 +48,8 @@ Ensure you have the required tools installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone [<repository-url>](https://github.com/yujansaya/raha_beach_ocr/)
-   cd [<repository-directory>](https://github.com/yujansaya/raha_beach_ocr/)
+   git clone https://github.com/yujansaya/raha_beach_ocr/
+   cd <your repository-directory>
    ```
 
 2. **Install the Python dependencies**:
