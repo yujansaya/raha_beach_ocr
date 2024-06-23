@@ -38,6 +38,7 @@ The project requires the following libraries:
 - `torch`
 - `concurrent.futures`
 - `tqdm`
+- `Levenshtein` (for choosing the best text among 3 models)
 
 Ensure you have the required tools installed:
 
