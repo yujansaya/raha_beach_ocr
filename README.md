@@ -97,8 +97,11 @@ To improve performance:
 
 ## Output Quality
 
-The `correct_text` function refines the OCR output by correcting common errors:
-- **Symbol Confusion**: Handles confusion between `|`, `I`, `1`, `/`, and other symbols.
+The `preprocess_image` function pre-propcesses the images that have very thick and bog letters that typically Tesseract fails to detect.
+
+## Selecting Best text among 3 models
+
+The `majority_vote`,  `select_best_text` and `similarity` functions compare the putpust of 3 models, and choose the best answer using Levenshtein Distance.
 
 ## Logging
 
